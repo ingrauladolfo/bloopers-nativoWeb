@@ -1,0 +1,454 @@
+@font-face {
+    font-family: 'ArcherPro';
+    font-weight: bold;
+    src: url("../fonts/ArcherPro-Bold.otf") format('opentype');
+}
+*{
+    font-family: 'ArcherPro';
+}
+
+
+@media(min-width: 100px){
+    .contenidos{
+        width: 100%;
+        height: 400px;
+        background-image: url('../../assets/img/contenidos-contents/blooper.png');
+        background-size: contain;
+        position: relative;
+        background-repeat: no-repeat;
+        -webkit-filter: none;
+        filter: none;
+    }
+    .bg-light {
+        background: #fbe344 !important;
+    }
+    ul li a {
+        background: #fbe344 !important;
+        color: black !important;
+    }
+    ul li a:hover {
+        background: #fbe344 !important;
+        color: yellow !important;
+    }
+    .dropdown-menu {
+        background: #fbe344 !important;
+        border: none;
+    }
+    p{
+        color:black;
+    }
+    .btn{
+        text-decoration: none;
+    }
+    .btn:hover{
+        text-decoration: none;
+    }
+    .row{
+        margin-top: -200px;
+        margin-bottom: 200px;
+    }
+    .footer-copyright{
+        margin-top: -250px;
+        font-size: 19px;
+    }
+}
+@media(min-width:280px){
+    .contenidos{
+        width: 100%;
+        height: 400px;
+        background-image: url('../../assets/img/contenidos-contents/blooper.png');
+        background-size: contain;
+        position: relative;
+        background-repeat: no-repeat;
+        -webkit-filter: none;
+        filter: none;
+    }
+    .bg-light {
+        background: #fbe344 !important;
+    }
+    ul li a {
+        background: #fbe344 !important;
+        color: black !important;
+    }
+    ul li a:hover {
+        background: #fbe344 !important;
+        color: yellow !important;
+    }
+    .dropdown-menu {
+        background: #fbe344 !important;
+        border: none;
+    }
+    p{
+        color:black;
+    }
+    .btn{
+        text-decoration: none;
+    }
+    .btn:hover{
+        text-decoration: none;
+    }
+    .row{
+        margin-top: -200px;
+        margin-bottom: 200px;
+    }
+    .footer-copyright{
+        margin-top: -250px;
+        font-size: 20px;
+    }
+}
+@media(min-width: 360px){
+    .contenidos{
+        width: 100%;
+        height: 450px;
+        background-image: url('../../assets/img/contenidos-contents/blooper.png');
+        background-size: contain;
+        position: relative;
+        background-repeat: no-repeat;
+        -webkit-filter: none;
+        filter: none;
+    }
+    .bg-light {
+        background: #fbe344 !important;
+    }
+    ul li a {
+        background: #fbe344 !important;
+        color: black !important;
+    }
+    ul li a:hover {
+        background: #fbe344 !important;
+        color: yellow !important;
+    }
+    .dropdown-menu {
+        background: #fbe344 !important;
+        border: none;
+    }
+    p{
+        color:black;
+    }
+    .btn{
+        text-decoration: none;
+    }
+    .btn:hover{
+        text-decoration: none;
+    }
+    .row{
+        margin-top: -200px;
+        margin-bottom: 200px;
+    }
+    .footer-copyright{
+        margin-top: -250px;
+        font-size: 25px;
+    }
+}
+@media(min-width: 400px){
+    .contenidos{
+        width: 100%;
+        height: 500px;
+        background-image: url('../../assets/img/contenidos-contents/blooper.png');
+        background-size: contain;
+        position: relative;
+        background-repeat: no-repeat;
+        -webkit-filter: none;
+        filter: none;
+    }
+    .bg-light {
+        background: #fbe344 !important;
+    }
+    ul li a {
+        background: #fbe344 !important;
+        color: black !important;
+    }
+    ul li a:hover {
+        background: #fbe344 !important;
+        color: yellow !important;
+    }
+    .dropdown-menu {
+        background: #fbe344 !important;
+        border: none;
+    }
+    p{
+        color:black;
+    }
+    .btn{
+        text-decoration: none;
+    }
+    .btn:hover{
+        text-decoration: none;
+    }
+    .row{
+        margin-top: -200px;
+        margin-bottom: 200px;
+    }
+    .footer-copyright{
+        margin-top: -250px;
+        font-size: 30px;
+    }
+}
+@media(min-width: 540px){
+    .contenidos{
+        width: 100%;
+        height: 400px;
+        background-image: url('../../assets/img/contenidos-contents/blooper.png');
+        background-size: cover;
+        position: relative;
+        background-repeat: no-repeat;
+        -webkit-filter: none;
+        filter: none;
+    }
+    .bg-light {
+        background: #fbe344 !important;
+    }
+    ul li a {
+        background: #fbe344 !important;
+        color: black !important;
+    }
+    ul li a:hover {
+        background: #fbe344 !important;
+        color: yellow !important;
+    }
+    .dropdown-menu {
+        background: #fbe344 !important;
+        border: none;
+    }
+    p{
+        color:black;
+    }
+    .btn{
+        text-decoration: none;
+    }
+    .btn:hover{
+        text-decoration: none;
+    }
+    .row{
+        margin-top: -50px;
+        margin-bottom: 50px;
+    }
+    .footer-copyright{
+        margin-top: -150px;
+        font-size: 40px;
+    }
+}
+@media(min-width: 600px){
+    .contenidos{
+        width: 100%;
+        height: 400px;
+        background-image: url('../../assets/img/contenidos-contents/blooper.png');
+        background-size: cover;
+        position: relative;
+        background-repeat: no-repeat;
+        -webkit-filter: none;
+        filter: none;
+    }
+    .bg-light {
+        background: #fbe344 !important;
+    }
+    ul li a {
+        background: #fbe344 !important;
+        color: black !important;
+    }
+    ul li a:hover {
+        background: #fbe344 !important;
+        color: yellow !important;
+    }
+    .dropdown-menu {
+        background: #fbe344 !important;
+        border: none;
+    }
+    p{
+        color:black;
+    }
+    .btn{
+        text-decoration: none;
+    }
+    .btn:hover{
+        text-decoration: none;
+    }
+    .row{
+        margin-top: -50px;
+        margin-bottom: 50px;
+    }
+    .footer-copyright{
+        margin-top: -150px;
+        font-size: 40px;
+    }
+}
+@media(min-width: 700px){
+    .contenidos{
+        width: 100%;
+        height: 400px;
+        background-image: url('../../assets/img/contenidos-contents/blooper.png');
+        background-size: cover;
+        position: relative;
+        background-repeat: no-repeat;
+        -webkit-filter: none;
+        filter: none;
+    }
+    .bg-light {
+        background: #fbe344 !important;
+    }
+    ul li a {
+        background: #fbe344 !important;
+        color: black !important;
+    }
+    ul li a:hover {
+        background: #fbe344 !important;
+        color: yellow !important;
+    }
+    .dropdown-menu {
+        background: #fbe344 !important;
+        border: none;
+    }
+    p{
+        color:black;
+    }
+    .btn{
+        text-decoration: none;
+    }
+    .btn:hover{
+        text-decoration: none;
+    }
+    .row{
+        margin-top: -50px;
+        margin-bottom: 50px;
+    }
+    .footer-copyright{
+        margin-top: -150px;
+        font-size: 40px;
+    }
+}
+@media (min-width: 1024px){
+    .contenidos{
+        width: 100%;
+        height: 500px;
+        background-image: url('../../assets/img/contenidos-contents/blooper.png');
+        background-size: cover;
+        position: relative;
+        background-repeat: no-repeat;
+        -webkit-filter: none;
+        filter: none;
+    }
+    .bg-light {
+        background: #fbe344 !important;
+    }
+    ul li a {
+        background: #fbe344 !important;
+        color: black !important;
+    }
+    ul li a:hover {
+        background: #fbe344 !important;
+        color: yellow !important;
+    }
+    .dropdown-menu {
+        background: #fbe344 !important;
+        border: none;
+    }
+    p{
+        color:black;
+        font-size: 40px;
+    }
+    .btn{
+        text-decoration: none;
+    }
+    .btn:hover{
+        text-decoration: none;
+    }
+    .row{
+        margin-top: -50px;
+        margin-bottom: 50px;
+    }
+    .footer-copyright{
+        margin-top: -150px;
+        font-size: 80px;
+    }
+}
+
+@media (min-width: 1200px){
+    .contenidos{
+        width: 100%;
+        height: 700px;
+        background-image: url('../../assets/img/contenidos-contents/blooper.png');
+        background-size: cover;
+        position: relative;
+        background-repeat: no-repeat;
+        -webkit-filter: none;
+        filter: none;
+    }
+    .bg-light {
+        background: #fbe344 !important;
+    }
+    ul li a {
+        background: #fbe344 !important;
+        color: black !important;
+    }
+    ul li a:hover {
+        background: #fbe344 !important;
+        color: yellow !important;
+    }
+    .dropdown-menu {
+        background: #fbe344 !important;
+        border: none;
+    }
+    p{
+        color:black;
+        font-size: 40px;
+    }
+    .btn{
+        text-decoration: none;
+    }
+    .btn:hover{
+        text-decoration: none;
+    }
+    .row{
+        margin-top: -50px;
+        margin-bottom: 50px;
+    }
+    .footer-copyright{
+        margin-top: -150px;
+        font-size: 80px;
+    }
+}
+@media(min-width: 1300px){
+    .contenidos{
+        width: 100%;
+        height: 700px;
+        background-image: url('../../assets/img/contenidos-contents/blooper.png');
+        background-size: cover;
+        position: relative;
+        background-repeat: no-repeat;
+        -webkit-filter: none;
+        filter: none;
+    }
+    .bg-light {
+        background: #fbe344 !important;
+    }
+    ul li a {
+        background: #fbe344 !important;
+        color: black !important;
+    }
+    ul li a:hover {
+        background: #fbe344 !important;
+        color: yellow !important;
+    }
+    .dropdown-menu {
+        background: #fbe344 !important;
+        border: none;
+    }
+    p{
+        color:black;
+        font-size: 40px;
+    }
+    .btn{
+        text-decoration: none;
+    }
+    .btn:hover{
+        text-decoration: none;
+    }
+    .row{
+        margin-top: -50px;
+        margin-bottom: 50px;
+    }
+    .footer-copyright{
+        margin-top: -150px;
+        font-size: 80px;
+    }
+}

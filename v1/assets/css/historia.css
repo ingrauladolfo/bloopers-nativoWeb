@@ -1,0 +1,468 @@
+@font-face {
+    font-family: 'ArcherPro';
+    font-weight: bold;
+    src: url("../fonts/ArcherPro-Bold.otf") format('opentype');
+}
+*{
+    font-family: 'ArcherPro';
+}
+
+
+@media(min-width: 100px){
+    .historia{
+        width: 100%;
+        height: 400px;
+        background-image: url('../../assets/img/historia-history/blooper.png');
+        background-size: contain;
+        position: relative;
+        background-repeat: no-repeat;
+        -webkit-filter: none;
+        filter: none;
+    }
+    .bg-light {
+        background: #ce009f !important;
+    }
+    ul li a {
+        background: #ce009f !important;
+        color: white !important;
+    }
+    ul li a:hover {
+        background: #ce009f !important;
+        color: yellow !important;
+    }
+    .dropdown-menu {
+        background: #ce009f !important;
+        border: none;
+    }
+    
+    h2{
+        color: #ce009f;
+        font-weight: 700;
+        font-size: 30px;
+    }
+    p{
+        color: #000000;
+        font-weight: 700;
+        font-size: 10px;
+    }
+    .row{
+        margin-top: -200px;
+        margin-bottom: 200px;
+    }
+    .footer-copyright{
+        margin-top: -250px;
+    }
+}
+@media(min-width:280px){
+    .historia{
+        width: 100%;
+        height: 400px;
+        background-image: url('../../assets/img/historia-history/blooper.png');
+        background-size: contain;
+        position: relative;
+        background-repeat: no-repeat;
+        -webkit-filter: none;
+        filter: none;
+    }
+    .bg-light {
+        background: #ce009f !important;
+    }
+    ul li a {
+        background: #ce009f !important;
+        color: white !important;
+    }
+    ul li a:hover {
+        background: #ce009f !important;
+        color: yellow !important;
+    }
+    .dropdown-menu {
+        background: #ce009f !important;
+        border: none;
+    }
+    
+    h2{
+        color: #ce009f;
+        font-weight: 700;
+        font-size: 30px;
+    }
+    p{
+        color: #000000;
+        font-weight:bolder;
+        font-size: 20px;
+    }
+    .row{
+        margin-top: -150px;
+        margin-bottom: 100px;
+    }
+    .footer-copyright{
+        margin-top: -150px;
+        font-size: 20px;
+        font-weight: bolder;
+    }
+}
+@media(min-width: 360px){
+    .historia{
+        width: 100%;
+        height: 400px;
+        background-image: url('../../assets/img/historia-history/blooper.png');
+        background-size: contain;
+        position: relative;
+        background-repeat: no-repeat;
+        -webkit-filter: none;
+        filter: none;
+    }
+    .bg-light {
+        background: #ce009f !important;
+    }
+    ul li a {
+        background: #ce009f !important;
+        color: white !important;
+    }
+    ul li a:hover {
+        background: #ce009f !important;
+        color: yellow !important;
+    }
+    .dropdown-menu {
+        background: #ce009f !important;
+        border: none;
+    }
+    
+    h2{
+        color: #ce009f;
+        font-weight: 700;
+        font-size: 30px;
+    }
+    p{
+        color: #000000;
+        font-weight: 700;
+        font-size: 20px;
+    }
+    .row{
+        margin-top: -100px;
+        margin-bottom: 100px;
+    }
+    .footer-copyright{
+        margin-top: -150px;
+        font-size: 25px;
+    }
+}
+@media(min-width: 400px){
+    .historia{
+        width: 100%;
+        height: 400px;
+        background-image: url('../../assets/img/historia-history/blooper.png');
+        background-size: contain;
+        position: relative;
+        background-repeat: no-repeat;
+        -webkit-filter: none;
+        filter: none;
+    }
+    .bg-light {
+        background: #ce009f !important;
+    }
+    ul li a {
+        background: #ce009f !important;
+        color: white !important;
+    }
+    ul li a:hover {
+        background: #ce009f !important;
+        color: yellow !important;
+    }
+    .dropdown-menu {
+        background: #ce009f !important;
+        border: none;
+    }
+    
+    h2{
+        color: #ce009f;
+        font-weight: 700;
+        font-size: 30px;
+    }
+    p{
+        color: #000000;
+        font-weight: 700;
+        font-size: 20px;
+    }
+    .row{
+        margin-top: -50px;
+        margin-bottom: 50px;
+    }
+    .footer-copyright{
+        margin-top: -130px;
+        font-size: 30px;
+        font-weight: bolder;
+    }
+}
+@media(min-width: 540px){
+    .historia{
+        width: 100%;
+        height: 400px;
+        background-image: url('../../assets/img/historia-history/blooper.png');
+        background-size: cover;
+        position: relative;
+        background-repeat: no-repeat;
+        -webkit-filter: none;
+        filter: none;
+    }
+    .bg-light {
+        background: #ce009f !important;
+    }
+    ul li a {
+        background: #ce009f !important;
+        color: white !important;
+    }
+    ul li a:hover {
+        background: #ce009f !important;
+        color: yellow !important;
+    }
+    .dropdown-menu {
+        background: #ce009f !important;
+        border: none;
+    }
+    
+    h2{
+        color: #ce009f;
+        font-weight: 700;
+        font-size: 40px;
+    }
+    p{
+        color: #000000;
+        font-weight: 700;
+        font-size: 30px;
+    }
+    .row{
+        margin-top: 50px;
+        margin-bottom: -50px;
+    }
+    .footer-copyright{
+        margin-top: -100px;
+    }
+}
+@media(min-width: 600px){
+    .historia{
+        width: 100%;
+        height: 400px;
+        background-image: url('../../assets/img/historia-history/blooper.png');
+        background-size: cover;
+        position: relative;
+        background-repeat: no-repeat;
+        -webkit-filter: none;
+        filter: none;
+    }
+    .bg-light {
+        background: #ce009f !important;
+    }
+    ul li a {
+        background: #ce009f !important;
+        color: white !important;
+    }
+    ul li a:hover {
+        background: #ce009f !important;
+        color: yellow !important;
+    }
+    .dropdown-menu {
+        background: #ce009f !important;
+        border: none;
+    }
+    
+    h2{
+        color: #ce009f;
+        font-weight: 700;
+        font-size: 50px;
+    }
+    p{
+        color: #000000;
+        font-weight: 700;
+        font-size: 40px;
+    }
+    .row{
+        margin-top: 0px;
+        margin-bottom: -50px;
+    }
+    .footer-copyright{
+        margin-top: -90px;
+        font-size: 45px;
+    }
+}
+@media(min-width: 700px){
+    .historia{
+        width: 100%;
+        height: 400px;
+        background-image: url('../../assets/img/historia-history/blooper.png');
+        background-size: cover;
+        position: relative;
+        background-repeat: no-repeat;
+        -webkit-filter: none;
+        filter: none;
+    }
+    .bg-light {
+        background: #ce009f !important;
+    }
+    ul li a {
+        background: #ce009f !important;
+        color: white !important;
+    }
+    ul li a:hover {
+        background: #ce009f !important;
+        color: yellow !important;
+    }
+    .dropdown-menu {
+        background: #ce009f !important;
+        border: none;
+    }
+    
+    h2{
+        color: #ce009f;
+        font-weight: 700;
+        font-size: 50px;
+    }
+    p{
+        color: #000000;
+        font-weight: 700;
+        font-size: 40px;
+    }
+    .row{
+        margin-top: 0px;
+        margin-bottom: -50px;
+    }
+    .footer-copyright{
+        margin-top: -80px;
+        font-size: 60px;
+    }
+}
+@media (min-width: 1024px){
+    .historia{
+        width: 100%;
+        height: 500px;
+        background-image: url('../../assets/img/historia-history/blooper.png');
+        background-size: cover;
+        position: relative;
+        background-repeat: no-repeat;
+        -webkit-filter: none;
+        filter: none;
+    }
+    .bg-light {
+        background: #ce009f !important;
+    }
+    ul li a {
+        background: #ce009f !important;
+        color: white !important;
+    }
+    ul li a:hover {
+        background: #ce009f !important;
+        color: yellow !important;
+    }
+    .dropdown-menu {
+        background: #ce009f !important;
+        border: none;
+    }
+    
+    h2{
+        color: #ce009f;
+        font-weight: 700;
+        font-size: 50px;
+    }
+    p{
+        color: #000000;
+        font-weight: 700;
+        font-size: 40px;
+    }
+    .row{
+        margin-top: 0px;
+        margin-bottom: -50px;
+    }
+    .footer-copyright{
+        font-size: 80px;
+    }
+
+}
+@media (min-width: 1200px){
+    .historia{
+        width: 100%;
+        height: 700px;
+        background-image: url('../../assets/img/historia-history/blooper.png');
+        background-size: cover;
+        position: relative;
+        background-repeat: no-repeat;
+        -webkit-filter: none;
+        filter: none;
+    }
+    .bg-light {
+        background: #ce009f !important;
+    }
+    ul li a {
+        background: #ce009f !important;
+        color: white !important;
+    }
+    ul li a:hover {
+        background: #ce009f !important;
+        color: yellow !important;
+    }
+    .dropdown-menu {
+        background: #ce009f !important;
+        border: none;
+    }
+    
+    h2{
+        color: #ce009f;
+        font-weight: 700;
+        font-size: 60px;
+    }
+    p{
+        color: #000000;
+        font-weight: 700;
+        font-size: 50px;
+    }
+    .row{
+        margin-top: 0px;
+        margin-bottom: -50px;
+    }
+    .footer-copyright{
+        font-size: 100px;
+    }
+}
+@media(min-width: 1300px){
+    .historia{
+        width: 100%;
+        height: 700px;
+        background-image: url('../../assets/img/historia-history/blooper.png');
+        background-size: cover;
+        position: relative;
+        background-repeat: no-repeat;
+        -webkit-filter: none;
+        filter: none;
+    }
+    .bg-light {
+        background: #ce009f !important;
+    }
+    ul li a {
+        background: #ce009f !important;
+        color: white !important;
+    }
+    ul li a:hover {
+        background: #ce009f !important;
+        color: yellow !important;
+    }
+    .dropdown-menu {
+        background: #ce009f !important;
+        border: none;
+    }
+    
+    h2{
+        color: #ce009f;
+        font-weight: 700;
+        font-size: 60px;
+    }
+    p{
+        color: #000000;
+        font-weight: 700;
+        font-size: 50px;
+    }
+    .row{
+        margin-top: 0px;
+        margin-bottom: -50px;
+    }
+    .footer-copyright{
+        font-size: 100px;
+    }
+}
